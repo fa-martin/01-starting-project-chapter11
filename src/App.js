@@ -8,8 +8,6 @@ import CartProvider from './store/CartProvider';
 function App() {
   const [showCart, setShowCart]= useState(false);
 
-
-
   const showCartHandler =()=>{
     setShowCart(!showCart);
   }
